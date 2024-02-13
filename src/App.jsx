@@ -6,7 +6,6 @@ import BlogList from './screens/BlogList'
 import Contact from './screens/Contact'
 import Footer from './components/Footer'
 import MagicCursor from './components/MagicCursor'
-import ProgressBar from './components/ProgressBar'
 import Subscribes from './components/Subscribes'
 import BlogDetail from './screens/BlogDetail'
 import PageNotFound from './components/PageNotFound'
@@ -24,7 +23,6 @@ function App() {
       </Routes>
       <Subscribes />
       <Footer />
-      <ProgressBar />
       <MagicCursor />
     </>
   )
